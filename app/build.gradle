@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+	useLibrary 'org.apache.http.legacy'
+	compileSdkVersion 29
+	
+	defaultConfig {
+		applicationId "com.my.busrevapp"
+		minSdkVersion 19
+		targetSdkVersion 29
+		versionCode 7
+		versionName "elon_m.x1"
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+		}
+	}
+}
+configurations.all {
+    resolutionStrategy {
+        force 'com.android.support:support-v4:27.1.0'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+	implementation 'androidx.appcompat:appcompat:1.1.0'
+	implementation 'com.google.android.material:material:1.1.0'
+	implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+	implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+	implementation 'com.google.firebase:firebase-analytics:17.2.0'
+	implementation 'com.google.firebase:firebase-messaging:20.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+	implementation 'androidx.cardview:cardview:1.0.0'
+	implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta4'
+
+}
+apply plugin: 'com.google.gms.google-services'

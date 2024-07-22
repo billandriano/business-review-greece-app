@@ -1,0 +1,152 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/colorBackground"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="wrap_content"
+				android:layout_height="100dp"
+				android:padding="10dp"
+				android:src="@drawable/brlogo"
+				android:scaleType="fitCenter"/>
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+                    android:textColor="@color/colorTextTitle"
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:textStyle="bold"
+					android:text="Ακολουθήστε μας στα social media">
+
+				</TextView>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="100dp">
+					<ImageView
+						android:id="@+id/facebook"
+						android:layout_width="55dp"
+						android:layout_height="40dp"
+						android:src="@drawable/facebook">
+					</ImageView>
+
+					<ImageView
+						android:id="@+id/instagram"
+						android:layout_width="55dp"
+						android:layout_height="40dp"
+						android:src="@drawable/instagram">
+
+					</ImageView>
+
+					<ImageView
+						android:id="@+id/twitter"
+						android:layout_width="55dp"
+						android:layout_height="40dp"
+						android:src="@drawable/twitter">
+
+					</ImageView>
+
+					<ImageView
+						android:id="@+id/youtube"
+						android:layout_width="55dp"
+						android:layout_height="40dp"
+						android:src="@drawable/youtube">
+
+					</ImageView>
+
+					<ImageView
+						android:id="@+id/linkedin"
+						android:layout_width="55dp"
+						android:layout_height="40dp"
+						android:src="@drawable/linkedin">
+
+					</ImageView>
+
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:orientation="vertical">
+					<TextView
+                        android:textColor="@color/colorTextTitle"
+						android:layout_width="match_parent"
+						android:layout_height="40dp"
+						android:text="Βρείτε τα Business Talks Podcast εδώ:"
+						android:textStyle="bold">
+					</TextView>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="100dp">
+						<ImageView
+                            android:id="@+id/spotify"
+							android:layout_width="55dp"
+							android:layout_height="40dp"
+							android:src="@drawable/spotify">
+						</ImageView>
+						<ImageView
+                            android:id="@+id/applepod"
+							android:layout_width="55dp"
+							android:layout_height="40dp"
+							android:src="@drawable/podcasts">
+
+						</ImageView>
+                        <ImageView
+                            android:id="@+id/instagrampod"
+                            android:layout_width="55dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/instagram">
+
+                        </ImageView>
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="100dp"
+						android:orientation="vertical">
+						<Switch
+                            android:textColor="@color/colorTextTitle"
+							android:id="@+id/darkmode"
+							android:layout_width="180dp"
+							android:layout_height="wrap_content"
+							android:text="Dark Mode">
+						</Switch>
+					</LinearLayout>
+
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<com.google.android.material.bottomnavigation.BottomNavigationView
+		android:id="@+id/bottom_navigation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginBottom="16dp"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/bottom_navigation_backround"
+		android:elevation="8dp"
+		app:itemIconSize="28dp"
+		app:itemIconTint="@drawable/bottom_navigation_color_selector"
+		app:labelVisibilityMode="unlabeled"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:menu="@menu/bottom_navigation" />
+</RelativeLayout>

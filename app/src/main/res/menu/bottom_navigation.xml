@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+        android:title="Κατηγορίες"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Αναζήτηση"/>
+    <item
+        android:id="@+id/nav_main"
+        android:icon="@drawable/home_button"
+        android:title="Άρθρα"/>
+    <item
+        android:id="@+id/favourites"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Αγαπημένα"/>
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="Περισσότερα"/>
+
+</menu>

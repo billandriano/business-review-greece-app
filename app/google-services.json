@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "903831626432",
+    "firebase_url": "https://business-review-gr-20b18.firebaseio.com",
+    "project_id": "business-review-gr-20b18",
+    "storage_bucket": "business-review-gr-20b18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903831626432:android:ccd316d7fc626061024325",
+        "android_client_info": {
+          "package_name": "com.my.busrevapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903831626432-qmpil98fh3a7h1416v3u3fnk6dofcnj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcYu11BZR6AWq2atbWkBI0pO1_SOGdXw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903831626432-qmpil98fh3a7h1416v3u3fnk6dofcnj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

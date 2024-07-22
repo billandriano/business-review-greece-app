@@ -1,0 +1,266 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.my.busrevapp"
+4    android:versionCode="7"
+5    android:versionName="elon_m.x1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+16
+17    <application
+17-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:8:5-65:19
+18        android:allowBackup="true"
+18-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\bcfc0b80df78591183083cc148e1cf2c\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/app_icon"
+21-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:10:9-42
+22        android:label="Business Review Greece"
+22-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:11:9-47
+23        android:largeHeap="true"
+23-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:12:9-33
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:13:9-40
+25        <activity
+25-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:15:9-24:20
+26            android:name="com.my.busrevapp.MainActivity"
+26-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:16:13-41
+27            android:configChanges="orientation|screenSize"
+27-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:17:13-59
+28            android:screenOrientation="portrait" >
+28-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:18:13-49
+29            <intent-filter>
+29-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:25:9-31:20
+36            android:name="com.my.busrevapp.Categories"
+36-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:26:13-39
+37            android:configChanges="orientation|screenSize"
+37-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:27:13-59
+38            android:screenOrientation="portrait"
+38-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:28:13-49
+39            android:theme="@style/AppTheme.NoActionBar" >
+39-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:29:13-56
+40        </activity>
+41        <activity
+41-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:32:9-36:59
+42            android:name="com.my.busrevapp.PostviewerActivity"
+42-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:33:13-47
+43            android:configChanges="orientation|screenSize"
+43-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:34:13-59
+44            android:screenOrientation="portrait"
+44-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:35:13-49
+45            android:theme="@style/AppTheme.NoActionBar" />
+45-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:36:13-56
+46        <activity
+46-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:37:9-40:52
+47            android:name="com.my.busrevapp.FavouritesActivity"
+47-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:38:13-47
+48            android:configChanges="orientation|screenSize"
+48-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:39:13-59
+49            android:screenOrientation="portrait" />
+49-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:40:13-49
+50        <activity
+50-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:41:9-44:52
+51            android:name="com.my.busrevapp.MoreActivity"
+51-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:42:13-41
+52            android:configChanges="orientation|screenSize"
+52-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:43:13-59
+53            android:screenOrientation="portrait" />
+53-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:44:13-49
+54        <activity
+54-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:45:9-48:52
+55            android:name="com.my.busrevapp.AllActivity"
+55-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:46:13-40
+56            android:configChanges="orientation|screenSize"
+56-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:47:13-59
+57            android:screenOrientation="portrait" />
+57-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:48:13-49
+58        <activity
+58-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:49:9-53:59
+59            android:name="com.my.busrevapp.ImageViewer"
+59-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:50:13-40
+60            android:configChanges="orientation|screenSize"
+60-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:51:13-59
+61            android:screenOrientation="portrait"
+61-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:52:13-49
+62            android:theme="@style/AppTheme.NoActionBar" />
+62-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:53:13-56
+63
+64        <uses-library
+64-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:55:9-57:40
+65            android:name="org.apache.http.legacy"
+65-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:56:13-50
+66            android:required="false" />
+66-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:57:13-37
+67
+68        <meta-data
+68-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:59:9-61:54
+69            android:name="com.google.firebase.messaging.default_notification_icon"
+69-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:60:13-83
+70            android:resource="@drawable/appnotifi" />
+70-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:61:13-51
+71        <meta-data
+71-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:62:9-64:57
+72            android:name="com.google.firebase.messaging.default_notification_color"
+72-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:63:13-84
+73            android:resource="@color/colorBackground" />
+73-->C:\Users\Bill\Documents\Apps\PlayStore Publish\Business Review GR App\app\src\main\AndroidManifest.xml:64:13-54
+74        <!--
+75             FirebaseMessagingService performs security checks at runtime,
+76             but set to not exported to explicitly avoid allowing another app to call it.
+77        -->
+78        <service
+78-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\210c71008f015c3b91d15e84e1f0562e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+79            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+79-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\210c71008f015c3b91d15e84e1f0562e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\210c71008f015c3b91d15e84e1f0562e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+81            <intent-filter android:priority="-500" >
+81-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\210c71008f015c3b91d15e84e1f0562e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:31:13-33:29
+81-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\210c71008f015c3b91d15e84e1f0562e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:31:28-51
+82                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+82-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\210c71008f015c3b91d15e84e1f0562e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:32:17-78
+82-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\210c71008f015c3b91d15e84e1f0562e\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:32:25-75
+83            </intent-filter>
+84        </service>
+85
+86        <receiver
+86-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+87            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+87-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+88            android:enabled="true"
+88-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+89            android:exported="false" >
+89-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+90        </receiver>
+91        <receiver
+91-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+92            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+92-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+93            android:enabled="true"
+93-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+94            android:exported="true"
+94-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+95            android:permission="android.permission.INSTALL_PACKAGES" >
+95-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+96            <intent-filter>
+96-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+97                <action android:name="com.android.vending.INSTALL_REFERRER" />
+97-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+97-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+98            </intent-filter>
+99        </receiver>
+100
+101        <service
+101-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+102            android:name="com.google.android.gms.measurement.AppMeasurementService"
+102-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+103            android:enabled="true"
+103-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+104            android:exported="false" />
+104-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+105        <service
+105-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+106            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+106-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+107            android:enabled="true"
+107-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+109            android:permission="android.permission.BIND_JOB_SERVICE" />
+109-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\29b06f2ccb235fe2f826c97512eccddd\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+110        <service
+110-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\59c1f55107682beeb3205906ebd643d0\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:27:9-33:19
+111            android:name="com.google.firebase.components.ComponentDiscoveryService"
+111-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\59c1f55107682beeb3205906ebd643d0\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:28:13-84
+112            android:exported="false" >
+112-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\59c1f55107682beeb3205906ebd643d0\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:29:13-37
+113            <meta-data
+113-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\59c1f55107682beeb3205906ebd643d0\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+114                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+114-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\59c1f55107682beeb3205906ebd643d0\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\59c1f55107682beeb3205906ebd643d0\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+117                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+117-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+119        </service>
+120
+121        <receiver
+121-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+122            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+122-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+123            android:exported="true"
+123-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+124            android:permission="com.google.android.c2dm.permission.SEND" >
+124-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+125            <intent-filter>
+125-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+126                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+126-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+126-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\01c940ce8cdf2237de11c0af096681c4\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+127            </intent-filter>
+128        </receiver>
+129
+130        <provider
+130-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\7c11071a8ea851eed1ed1c07d1b8edfb\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+131            android:name="com.google.firebase.provider.FirebaseInitProvider"
+131-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\7c11071a8ea851eed1ed1c07d1b8edfb\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+132            android:authorities="com.my.busrevapp.firebaseinitprovider"
+132-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\7c11071a8ea851eed1ed1c07d1b8edfb\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+133            android:exported="false"
+133-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\7c11071a8ea851eed1ed1c07d1b8edfb\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+134            android:initOrder="100" />
+134-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\7c11071a8ea851eed1ed1c07d1b8edfb\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+135
+136        <activity
+136-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+137            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+137-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+140
+141        <meta-data
+141-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+142            android:name="com.google.android.gms.version"
+142-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+143            android:value="@integer/google_play_services_version" />
+143-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bill\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+144    </application>
+145
+146</manifest>

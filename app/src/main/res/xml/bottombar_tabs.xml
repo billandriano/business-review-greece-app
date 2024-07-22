@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+            id="@+id/tab_favorites"
+            icon="@drawable/ic_favorite_black_24dp"
+            title="Αγαπημένα" />
+    <tab
+            id="@+id/tab_categories"
+            icon="@drawable/ic_format_list_bulleted_black_24dp"
+            title="Κατηγορίες" />
+    <tab
+            id="@+id/tab_br"
+            icon="@drawable/br_cycle"
+            title="Άρθρα" />
+    <tab
+        id="@+id/tab_search"
+        icon="@drawable/ic_search_black_24dp"
+        title="Αναζήτηση" />
+    <tab
+        id="@+id/tab_more"
+        icon="@drawable/ic_more_horiz_black_24dp"
+        title="Περισσότερα" />
+</tabs>
